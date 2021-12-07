@@ -1,0 +1,110 @@
+.similarjob-container {
+  width: 100%;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #272727;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.similarjob-logo-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 80px;
+}
+.similarjob-company-logo {
+  height: 70px;
+  width: 70px;
+}
+.similarjob-title-rating-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.similarjob-start-rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+.similarjob-star {
+  color: #fbbf24;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.similarjob-location-package-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.similarjob-icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.similarjob-icon-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+.similarjob-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.similarjob-rating-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.similarjob-icon-size {
+  height: 40px;
+  width: 30px;
+  color: #ffffff;
+  margin: 0px;
+}
+.similarjob-location {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+.similarjob-package {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.similarjob-package {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.similarjob-location {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+.similarjob-descrption-margin {
+  margin: 0px;
+}
+@media all and (min-width: 768px) {
+  .similarjob-container {
+    width: 32%;
+  }
+}

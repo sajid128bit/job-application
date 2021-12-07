@@ -1,0 +1,43 @@
+.filters-container {
+  width: 95%;
+  border-style: solid;
+  border-width: 0px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.filter-hori-line {
+  width: 100%;
+  color: #b6c5ff;
+  height: 2px;
+}
+.filter-paragraph {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.filter-emplyment-unlist {
+  list-style-type: none;
+  padding: 0px;
+}
+.filter-checkboxes {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.filter-checkBoxItemSquare {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+.filter-checkBoxItemCircle {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border-style: solid;
+  vertical-align: middle;
+}

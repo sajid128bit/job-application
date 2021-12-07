@@ -1,0 +1,236 @@
+.jobitem-container-main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.jobitem-container {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+.jobitemsub-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 0px;
+  background-color: #272727;
+  border-radius: 6px;
+  margin-top: 15px;
+  padding: 10px;
+  margin-left: 0px;
+}
+.jobitem-logo-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 80px;
+}
+.jobitem-company-logo {
+  height: 70px;
+  width: 70px;
+}
+.jobitem-title-rating-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.jobitem-start-rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+.jobitem-star {
+  color: #fbbf24;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.jobitem-location-package-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.jobitem-icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.jobitem-icon-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+.jobitem-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.jobitem-rating-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+.jobitem-icon-size {
+  height: 40px;
+  width: 30px;
+  color: #ffffff;
+  margin: 0px;
+}
+.jobitem-location {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+.jobitem-package {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.jobitem-horizontal-line {
+  width: 95%;
+  height: 2px;
+  color: #b6c5ff;
+}
+.ajobitem-descrption-margin {
+  margin: 0px;
+}
+.jobless-image-size {
+  height: 90%;
+  width: 90%;
+  margin-top: 25px;
+}
+.jobless-nojobs-found {
+  font-size: 35px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.jobless-nojobs-found-para {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.jobitem-description-visit-continer {
+  display: flex;
+  justify-content: space-between;
+}
+.jobitem-visit {
+  font-size: 20px;
+  font-weight: 500;
+  color: #4f46e5;
+  font-family: 'Roboto';
+}
+.jobitem-visit-visiticon-container {
+  display: flex;
+  align-items: center;
+}
+.jobitem-visit-icon {
+  height: 20px;
+  width: 20px;
+  color: #4f46e5;
+  margin-left: 5px;
+}
+.jobitem-description {
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 15px;
+}
+.jobitem-skills {
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 15px;
+}
+.jobitem-skills-unorderlist-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.jobitem-skills-name-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 45%;
+}
+.jobitem-skill-image {
+  height: 38px;
+  width: 38px;
+}
+.jobitem-skill-name {
+  font-size: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.jobitem-life-at-company-pic {
+  height: 40%;
+  width: 100%;
+  margin-top: 15px;
+}
+.jobitem-similar-jobs {
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-top: 50px;
+  align-self: flex-start;
+}
+.jobitem-unorder-similarjob {
+  list-style-type: none;
+  padding: 0px;
+  width: 100%;
+}
+@media all and (min-width: 768px) {
+  .jobless-image-size {
+    margin-top: 100px;
+  }
+  .jobitem-unorder-similarjob {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .jobitem-life-at-company-pic {
+    height: 55%;
+    margin-top: 35px;
+  }
+  .jobitem-skills-name-list {
+    width: 30%;
+  }
+  .jobitem-skill-image {
+    height: 50px;
+    width: 50px;
+  }
+  .jobitem-skill-name {
+    font-size: 20px;
+  }
+}

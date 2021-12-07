@@ -1,0 +1,104 @@
+.loginForm-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
+}
+.loginForm-login-container {
+  width: 90%;
+  background-color: #272727;
+  border-style: solid;
+  border-width: 0px;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.website-logo-size {
+  width: 120px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.loginForm-label-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+}
+.loginForm-label-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.loginForm-input-style {
+  background-color: transparent;
+  border-width: 2px;
+  color: #f1f5f9;
+  border-radius: 5px;
+  height: 45px;
+  width: 100%;
+  border-color: #64748b;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  padding-left: 10px;
+  outline: none;
+  font-weight: 300;
+}
+.loginForm-login-button {
+  height: 45px;
+  width: 100%;
+  background-color: #4f46e5;
+  border-width: 0px;
+  border-radius: 8px;
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.loginForm-error-message {
+  font-size: 15px;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media all and (min-width: 768px) {
+  .loginForm-login-container {
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .website-logo-size {
+    width: 160px;
+    height: 80px;
+    margin-bottom: 50px;
+  }
+  .loginForm-label-name {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .loginForm-input-style {
+    border-radius: 8px;
+    height: 60px;
+    margin-bottom: 25px;
+    font-size: 23px;
+  }
+  .loginForm-login-button {
+    height: 60px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
